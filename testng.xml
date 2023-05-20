@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/TestNGReadExcelData">
+        <parameter name="browser" value="MicrosoftEdge"></parameter>
+        <classes>
+            <class name="testscripts.HomePageScript"></class>
+            <class name="testscripts.LoginPageScript"></class>
+            <class name="testscripts.LogoutPageScript"></class>
+            <class name="testscripts.AddProductPageScript"></class>
+        </classes>
+    </test>
+</suite>

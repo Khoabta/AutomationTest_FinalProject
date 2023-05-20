@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="6" total="21" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T13:46:02 ICT" name="All Test Suite" finished-at="2022-09-17T13:48:20 ICT" duration-ms="137877">
+    <groups>
+      <group name="Success">
+        <method signature="LoginPageScript.TC01_LoginSuccess()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" name="TC01_LoginSuccess" class="testscripts.LoginPageScript"/>
+      </group> <!-- Success -->
+      <group name="Invalid">
+        <method signature="LoginPageScript.testByForLoop()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" name="testByForLoop" class="testscripts.LoginPageScript"/>
+      </group> <!-- Invalid -->
+    </groups>
+    <test started-at="2022-09-17T13:46:02 ICT" name="C:/Users/Admin/IdeaProjects/TestNGReadExcelData" finished-at="2022-09-17T13:48:20 ICT" duration-ms="137877">
+      <class name="testscripts.LoginPageScript">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:08 ICT" name="setupLoginPage" finished-at="2022-09-17T13:46:08 ICT" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:08 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:46:09 ICT" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="TC01_LoginSuccess()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:09 ICT" name="TC01_LoginSuccess" finished-at="2022-09-17T13:46:11 ICT" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginSuccess -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:11 ICT" name="closeSession" finished-at="2022-09-17T13:46:13 ICT" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method is-config="true" signature="reloadLoginPage2()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:13 ICT" name="reloadLoginPage2" finished-at="2022-09-17T13:46:14 ICT" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage2 -->
+        <test-method signature="testByForLoop()[pri:0, instance:testscripts.LoginPageScript@79efed2d]" started-at="2022-09-17T13:46:14 ICT" name="testByForLoop" finished-at="2022-09-17T13:46:20 ICT" duration-ms="6209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByForLoop -->
+      </class> <!-- testscripts.LoginPageScript -->
+      <class name="testscripts.LogoutPageScript">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:testscripts.LogoutPageScript@124c278f]" started-at="2022-09-17T13:46:20 ICT" name="setupLoginPage" finished-at="2022-09-17T13:46:20 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.LogoutPageScript@124c278f]" started-at="2022-09-17T13:46:20 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:46:21 ICT" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="testLogoutFuntion()[pri:0, instance:testscripts.LogoutPageScript@124c278f]" started-at="2022-09-17T13:46:21 ICT" name="testLogoutFuntion" finished-at="2022-09-17T13:46:26 ICT" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFuntion -->
+      </class> <!-- testscripts.LogoutPageScript -->
+      <class name="testscripts.AddProductPageScript">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:26 ICT" name="setupLoginPage" finished-at="2022-09-17T13:46:26 ICT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:26 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:46:29 ICT" duration-ms="2962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method retried="true" signature="captureScreenShotFailTestCase()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:29 ICT" name="captureScreenShotFailTestCase" finished-at="2022-09-17T13:46:40 ICT" duration-ms="10794" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='el-message el-message--success'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='el-message el-message--success'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageobjects.AddProductPage.getWrongMessage(AddProductPage.java:195)
+at testscripts.AddProductPageScript.captureScreenShotFailTestCase(AddProductPageScript.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotFailTestCase -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:40 ICT" name="screenShot" finished-at="2022-09-17T13:46:40 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=captureScreenShotFailTestCase status=SKIP method=AddProductPageScript.captureScreenShotFailTestCase()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:40 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:46:43 ICT" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="captureScreenShotFailTestCase()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:43 ICT" name="captureScreenShotFailTestCase" finished-at="2022-09-17T13:46:54 ICT" duration-ms="10770" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='el-message el-message--success'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='el-message el-message--success'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageobjects.AddProductPage.getWrongMessage(AddProductPage.java:195)
+at testscripts.AddProductPageScript.captureScreenShotFailTestCase(AddProductPageScript.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotFailTestCase -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:54 ICT" name="screenShot" finished-at="2022-09-17T13:46:54 ICT" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=captureScreenShotFailTestCase status=FAILURE method=AddProductPageScript.captureScreenShotFailTestCase()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:54 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:46:57 ICT" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method retried="true" signature="checkExistedProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:46:57 ICT" name="checkExistedProductName" finished-at="2022-09-17T13:47:10 ICT" duration-ms="13007" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(), 'Tên sản phẩm đã tồn tại')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(), 'Tên sản phẩm đã tồn tại')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageobjects.AddProductPage.getWrongMessage(AddProductPage.java:195)
+at testscripts.AddProductPageScript.checkExistedProductName(AddProductPageScript.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExistedProductName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:10 ICT" name="screenShot" finished-at="2022-09-17T13:47:10 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkExistedProductName status=SKIP method=AddProductPageScript.checkExistedProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:10 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:47:13 ICT" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="checkExistedProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:13 ICT" name="checkExistedProductName" finished-at="2022-09-17T13:47:26 ICT" duration-ms="13027" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(), 'Tên sản phẩm đã tồn tại')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(), 'Tên sản phẩm đã tồn tại')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MSI', ip: '192.168.3.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61685}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61685/devtoo..., se:cdpVersion: 105.0.1343.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67b408fb83d147e18c5b1deb7bb35915
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageobjects.AddProductPage.getWrongMessage(AddProductPage.java:195)
+at testscripts.AddProductPageScript.checkExistedProductName(AddProductPageScript.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExistedProductName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:26 ICT" name="screenShot" finished-at="2022-09-17T13:47:26 ICT" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkExistedProductName status=FAILURE method=AddProductPageScript.checkExistedProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:26 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:47:29 ICT" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateAddProduct()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:29 ICT" name="validateAddProduct" finished-at="2022-09-17T13:47:31 ICT" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddProduct -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:31 ICT" name="screenShot" finished-at="2022-09-17T13:47:31 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAddProduct status=SUCCESS method=AddProductPageScript.validateAddProduct()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:31 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:47:34 ICT" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateEmptyCategory()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:34 ICT" name="validateEmptyCategory" finished-at="2022-09-17T13:47:35 ICT" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmptyCategory -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:35 ICT" name="screenShot" finished-at="2022-09-17T13:47:35 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateEmptyCategory status=SUCCESS method=AddProductPageScript.validateEmptyCategory()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:35 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:47:38 ICT" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateIntroduce()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:38 ICT" name="validateIntroduce" finished-at="2022-09-17T13:47:41 ICT" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntroduce -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:41 ICT" name="screenShot" finished-at="2022-09-17T13:47:41 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateIntroduce status=SUCCESS method=AddProductPageScript.validateIntroduce()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:41 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:47:44 ICT" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateOtherSuccessfulTC()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:44 ICT" name="validateOtherSuccessfulTC" finished-at="2022-09-17T13:47:58 ICT" duration-ms="13483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOtherSuccessfulTC -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:58 ICT" name="screenShot" finished-at="2022-09-17T13:47:58 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateOtherSuccessfulTC status=SUCCESS method=AddProductPageScript.validateOtherSuccessfulTC()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:47:58 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:48:01 ICT" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validatePrice()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:01 ICT" name="validatePrice" finished-at="2022-09-17T13:48:07 ICT" duration-ms="6209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrice -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:07 ICT" name="screenShot" finished-at="2022-09-17T13:48:07 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePrice status=SUCCESS method=AddProductPageScript.validatePrice()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:07 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:48:10 ICT" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:10 ICT" name="validateProductName" finished-at="2022-09-17T13:48:15 ICT" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:15 ICT" name="screenShot" finished-at="2022-09-17T13:48:15 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductName status=SUCCESS method=AddProductPageScript.validateProductName()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="reloadLoginPage()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:15 ICT" name="reloadLoginPage" finished-at="2022-09-17T13:48:18 ICT" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLoginPage -->
+        <test-method signature="validateRequiredFields()[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:18 ICT" name="validateRequiredFields" finished-at="2022-09-17T13:48:20 ICT" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRequiredFields -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:testscripts.AddProductPageScript@15b204a1]" started-at="2022-09-17T13:48:20 ICT" name="screenShot" finished-at="2022-09-17T13:48:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRequiredFields status=SUCCESS method=AddProductPageScript.validateRequiredFields()[pri:0, instance:testscripts.AddProductPageScript@15b204a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- testscripts.AddProductPageScript -->
+      <class name="testscripts.HomePageScript">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.HomePageScript@14d3bc22]" started-at="2022-09-17T13:46:03 ICT" name="initializeBrowser" finished-at="2022-09-17T13:46:06 ICT" duration-ms="3063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="initHomePageScript()[pri:0, instance:testscripts.HomePageScript@14d3bc22]" started-at="2022-09-17T13:46:06 ICT" name="initHomePageScript" finished-at="2022-09-17T13:46:06 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHomePageScript -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testscripts.HomePageScript@14d3bc22]" started-at="2022-09-17T13:46:06 ICT" name="goToHomePage" finished-at="2022-09-17T13:46:07 ICT" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method signature="verifyLinkLogin()[pri:0, instance:testscripts.HomePageScript@14d3bc22]" started-at="2022-09-17T13:46:07 ICT" name="verifyLinkLogin" finished-at="2022-09-17T13:46:08 ICT" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscripts.HomePageScript@14d3bc22]" started-at="2022-09-17T13:48:20 ICT" name="closeBrowser" finished-at="2022-09-17T13:48:20 ICT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscripts.HomePageScript -->
+    </test> <!-- C:/Users/Admin/IdeaProjects/TestNGReadExcelData -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
