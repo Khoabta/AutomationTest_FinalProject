@@ -2,19 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="C:/Users/Admin/IdeaProjects/TestNGReadExcelData(failed)">
-    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testscripts.AddProductPageScript">
+      <class name="testscripts.HomePageScript">
         <methods>
-          <include name="checkExistedProductName"/>
-          <include name="captureScreenShotFailTestCase"/>
-          <include name="screenShot"/>
-          <include name="reloadLoginPage"/>
-          <include name="closeBrowser"/>
+          <include name="goToHomePage"/>
+          <include name="initHomePageScript"/>
           <include name="initializeBrowser"/>
-          <include name="setupLoginPage"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLinkLogin"/>
         </methods>
-      </class> <!-- testscripts.AddProductPageScript -->
+      </class> <!-- testscripts.HomePageScript -->
     </classes>
   </test> <!-- C:/Users/Admin/IdeaProjects/TestNGReadExcelData(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

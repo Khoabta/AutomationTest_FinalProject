@@ -1,5 +1,6 @@
 package common;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -24,16 +25,19 @@ public class Base {
 
         switch (browser) {
             case "Chrome":
-                System.setProperty("webdriver.chrome.driver", pathProject + "/libs/chromedriver.exe");
+//                System.setProperty("webdriver.chrome.driver", pathProject + "/libs/chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 break;
             case "Firefox":
-                System.setProperty("webdriver.gecko.driver", pathProject + "/libs/geckodriver.exe");
-                System.setProperty("webdriver.firefox.bin", "C:/Program Files/Mozilla Firefox/firefox.exe");
+//                System.setProperty("webdriver.gecko.driver", pathProject + "/libs/geckodriver.exe");
+//                System.setProperty("webdriver.firefox.bin", "C:/Program Files/Mozilla Firefox/firefox.exe");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
             case "MicrosoftEdge":
-                System.setProperty("webdriver.edge.driver", pathProject + "/libs/msedgedriver.exe");
+//                System.setProperty("webdriver.edge.driver", pathProject + "/libs/msedgedriver.exe");
+                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
             default:

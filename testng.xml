@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/TestNGReadExcelData">
-        <parameter name="browser" value="MicrosoftEdge"></parameter>
+        <parameter name="browser" value="Chrome"></parameter>
         <classes>
             <class name="testscripts.HomePageScript"></class>
             <class name="testscripts.LoginPageScript"></class>
